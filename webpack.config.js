@@ -33,6 +33,8 @@ const PATHS = {
     build: join(__dirname,'dist')
 };
 
+console.log('***** directory: \n' + __dirname);
+console.log('***** directory: \n'); 
 console.log(PATHS);
 
 // Thus the PATHS constant above can help refer to your folders.
@@ -61,8 +63,10 @@ module.exports = {
         extensions: ['.js']
     },
     output: {
-        path: PATHS.build,
         filename: './dist/index.min.js'
+        path: resolve(__dirname,'dist'),
+        publicPath: "/js/"
+        
     },
     module: {
         loaders: [{

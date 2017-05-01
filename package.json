@@ -41,5 +41,4 @@
     "webpack-dev-server": "^2.4.5"
   },
   "//": " added build: and start: attributes"
-
 }
