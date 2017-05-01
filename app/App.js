@@ -6,7 +6,7 @@ export default class App {
     constructor()
     {
         console.log("hello from App");
-        console.log("sdfdsfdsfdsf");
+        console.log("this is a test");
         console.log("sdfdsfdsffssdfdsfsdf");
     }
 }

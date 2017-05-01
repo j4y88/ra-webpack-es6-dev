@@ -32,14 +32,8 @@ const PATHS = {
     fonts: join(__dirname, 'fonts'),
     build: join(__dirname,'dist')
 };
-<<<<<<< HEAD
-
-console.log('***** directory: \n' + __dirname);
-console.log('***** directory: \n'); 
-=======
 console.log("***** DIRECTORY : \n" + __dirname);
 console.log("***** PATHS : \n");
->>>>>>> eapostol/master
 console.log(PATHS);
 
 /*
@@ -67,17 +61,9 @@ module.exports = {
         extensions: ['.js']
     },
     output: {
-<<<<<<< HEAD
-        filename: './dist/index.min.js'
-        path: resolve(__dirname,'dist'),
-        publicPath: "/js/"
-        
-=======
         filename: 'index.min.js',
         path: resolve(__dirname,'dist'),
         publicPath: "/js/"
-
->>>>>>> eapostol/master
     },
     module: {
         loaders: [
