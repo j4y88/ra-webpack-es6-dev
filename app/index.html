@@ -2,10 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Hello ES6</title>
-    <script src="/js/index.min.js"></script>
+    <title>Simple Video Player</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script type="txt/javacript" src="./js/index.min.js"></script>
 </head>
 <body>
-Hello World Test....
+<h1>Welcome to My Video Player</h1>
+<figure id="video_player">
+    <video controls poster="./images/nambia1.jpg">
+        <source src="./media/nambia1.mp4" type="video/mp4">
+        <source src="./media/nambia1.webm" type="video/webm">
+    </video>
+    <figcaption>
+        <a href="./media/nambia1.mp4"><img src="./images/nambia1.jpg" alt="Nambia Timelapse 1"></a>
+        <a href="./media/nambia2.mp4"><img src="./images/nambia2.jpg" alt="Nambia Timelapse 2"></a>
+        <a href="./media/nambia3.mp4"><img src="./images/nambia3.jpg" alt="Nambia Timelapse 3"></a>
+    </figcaption>
+</figure>
+
 </body>
 </html>
