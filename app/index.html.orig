@@ -7,8 +7,12 @@
 
 </head>
 <body>
-<h1>Hello! This is a test and now i have updated the text</h1>
+<<<<<<< HEAD
+Hello World Test....
+=======
+<h1>Hello! This is a test</h1>
 This web page includes a javascript file that is transpiled from multiple js modules. <br>
 This process is executed using webpack and babel.
+>>>>>>> 18809c442b9f9eae234babd1917560286111d077
 </body>
 </html>

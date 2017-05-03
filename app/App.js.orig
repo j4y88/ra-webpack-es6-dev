@@ -1,0 +1,12 @@
+export default class App {
+    constructor()
+    {
+<<<<<<< HEAD
+        console.log("hello from App");
+        console.log("this is a test");
+        console.log("sdfdsfdsffssdfdsfsdf");
+=======
+        console.log("Hello World from the App");
+>>>>>>> 18809c442b9f9eae234babd1917560286111d077
+    }
+}
